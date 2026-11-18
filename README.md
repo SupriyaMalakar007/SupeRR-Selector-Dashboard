@@ -1,30 +1,74 @@
-# SupeRR Selector Pressure Reliability Dashboard
+# 🏏 SupeRR Selector – Cricket Analytics Dashboard
 
-Interactive Streamlit dashboard for the supplied player-level pressure analysis.
+## 📌 About the Project
 
-## Run locally
+SupeRR Selector is an interactive cricket analytics dashboard developed to identify players who perform reliably under pressure.
+
+The project analyses ball-by-ball cricket data to evaluate player performance in challenging match situations. It uses statistical metrics and data-driven comparisons to help identify dependable batters and bowlers.
+
+## 🎯 Project Objectives
+
+- Analyse ball-by-ball cricket data.
+- Identify pressure situations during matches.
+- Evaluate batting and bowling performance.
+- Compare players using statistical metrics.
+- Rank players based on their performance and reliability under pressure.
+- Present insights through an interactive dashboard.
+
+## 📊 Key Features
+
+- Interactive cricket analytics dashboard.
+- Player performance comparison.
+- Pressure-based batting analysis.
+- Bowling performance evaluation.
+- Player rankings and statistical insights.
+- Data visualisation for easier decision-making.
+
+## 🛠️ Tech Stack
+
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Plotly
+- Matplotlib
+
+## 🚀 Run Locally
+
+Clone the repository:
 
 ```bash
-python -m venv .venv
-# Windows PowerShell:
-.venv\Scripts\Activate.ps1
+git clone https://github.com/YOUR_USERNAME/SupeRR-Selector-Dashboard.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd SupeRR-Selector-Dashboard
+```
+
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
+
+Run the dashboard:
+
+```bash
 streamlit run app.py
 ```
 
-Open the local URL printed by Streamlit (normally http://localhost:8501).
+## 💡 Project Motivation
 
-## Publish a public dashboard link
+The objective is to go beyond traditional cricket statistics and understand which players can deliver when the pressure is highest.
 
-1. Create a GitHub repository and upload `app.py`, `requirements.txt`, and the `data/` folder.
-2. Open https://share.streamlit.io/ and sign in with GitHub.
-3. Choose **Create app**, select the repository, branch, and `app.py` as the main file.
-4. Deploy. Streamlit Community Cloud will provide a public URL that can be pasted into the competition's dashboard-link field.
+This project combines cricket knowledge, data analysis, and visualisation to support smarter, evidence-based player selection.
 
-## Contents
-- `app.py`: interactive dashboard with batter/bowler views, sortable player data, charts, and profile explorer.
-- `data/batters_ranked.csv`: player-level batting analysis output.
-- `data/bowlers_ranked.csv`: player-level bowling analysis output.
+## 🏆 Competition
 
-## Important interpretation note
-The dashboard displays the supplied ranked analysis outputs. Scores are model-based and depend on the pressure definition, weights, eligibility thresholds, and sample sizes. They are not official ratings or guarantees of future performance. Review the official challenge brief and final PDF methodology before submission.
+Developed as part of the **SupeRR Selector Challenge by Rajasthan Royals and Unstop**.
+
+---
+
+**Built with 🏏, Python, and Data Science.**
